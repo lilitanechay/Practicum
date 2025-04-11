@@ -1,0 +1,10 @@
+.table__cell_heading {
+  margin: 0;
+  margin-bottom: 20px;
+}
+
+.table__cell_heading {
+  line-height: 1.15;
+  font-size: 24px;
+  font-weight:600;
+}

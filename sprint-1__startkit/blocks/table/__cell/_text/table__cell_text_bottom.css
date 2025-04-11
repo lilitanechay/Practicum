@@ -1,0 +1,9 @@
+.table__cell_text_bottom {
+  margin-bottom: 20px;
+}
+
+.table__cell_text {
+  line-height: 1.12;
+  font-size: 18px;
+  font-weight: normal;
+}

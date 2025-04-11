@@ -1,0 +1,20 @@
+@keyframes rotate-animation {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.rotation {
+  transition: transform 2s ease, opacity 2s ease;
+}
+.rotation:hover {
+  opacity: 0.70;
+  animation: rotate-animation 20s ease infinite alternate;
+}
+
+.rotation:not(:hover) {
+  transform: rotate(0deg); /* Возврат в исходное состояние */
+}
